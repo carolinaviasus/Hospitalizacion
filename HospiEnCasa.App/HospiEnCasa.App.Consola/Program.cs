@@ -9,7 +9,7 @@ namespace HospiEnCasa.App.Consola
         private static IRepositorioPaciente _repoPaciente= new RepositorioPaciente(new Persistencia.AppContext());
         static void Main(string[] args)
         {
-            Console.WriteLine("Hospital En Casa");
+            Console.WriteLine("Bienvenidos a Hospital En Casa de G45");
             AddPaciente();
             //BuscarPaciente(1);
             //AsignarMedico();
